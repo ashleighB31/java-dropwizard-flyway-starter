@@ -5,4 +5,5 @@ CREATE TABLE user (
     password varchar(100),
     PRIMARY KEY (userId),
     FOREIGN KEY (roleId) REFERENCES role(id)
+
 );
